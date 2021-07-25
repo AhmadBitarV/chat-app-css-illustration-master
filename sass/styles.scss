@@ -1,0 +1,43 @@
+/// Break Points
+$bp-largest: 75em;
+$bp-large: 62.5em;
+$bp-medium: 50em;
+$bp-small: 37.5em;
+
+/// Primary Text Colors
+$pale-Violet: hsl(276, 100%, 81%); //  (sub-heading at the top of the app UI)
+$oderate-violet: hsl(276, 55%, 52%); //  (chat on the left)
+$desaturated-dark-violet: hsl(271, 15%, 43%); // (chat on the right)
+$grayish-blue: hsl(206, 6%, 79%); //  (placeholder text)
+$very-dark-desaturated-violet: hsl(271, 36%, 24%); // (main heading)
+$dark-grayish-violet: hsl(270, 7%, 64%); // (paragraph)
+
+// These two colors are the vibrant background colors you see throughout the design and are applied as a linear gradient:
+$light-magenta: hsl(293, 100%, 63%);
+$light-violet: hsl(264, 100%, 61%);
+
+/// Secondary Colors
+$white: hsl(0, 0%, 100%);
+$light-grayish-violet: hsl(270, 20%, 96%); // (app background)
+$very-dark-desaturated-violet: hsl(271, 36%, 24%); // (submit button background)
+$very-light-magenta: hsl(289, 100%, 72%); // (radio button outline)
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+  background-color: deeppink;
+  font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif;
+  height: 100vh;
+}
